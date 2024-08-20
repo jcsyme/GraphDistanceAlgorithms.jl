@@ -14,8 +14,8 @@ using Graphs
 using SharedArrays
 
 # custom modules TEMPORARY
-using Pkg
-Pkg.develop(path = "/Users/jsyme/Documents/Projects/git_jbus/IterativeHeaps.jl")
+#using Pkg
+#Pkg.develop(path = "/Users/jsyme/Documents/Projects/git_jbus/IterativeHeaps.jl")
 using IterativeHeaps
 
 
