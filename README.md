@@ -106,13 +106,7 @@ Name the project sponsor, funding mechanism, period of performance, and any cont
 
 ## References/Bibliography
 
-Borgatti, S.P. Identifying sets of key players in a social network. Comput Math Organiz Theor 12, 21–34 (2006). https://doi.org/10.1007/s10588-006-7084-x
-
-Dorigo and Stützle (2004)
-
-Leguizamón\& Michalewicz (2000) 
-
-Hadji et al. (2000)
+Fairbanks, James and Besan{\c{c}}on, Mathieu and Simon, Sch{\"o}lly and Hoffiman, J{\'u}lio and Eubank, Nick and Karpinski, Stefan. 2021. _JuliaGraphs/Graphs.jl: an optimized graphs package for the Julia programming language_. https://github.com/JuliaGraphs/Graphs.jl/
 
  
 
@@ -124,7 +118,11 @@ Copyright (C) <2024> RAND Corporation. This code is made available under the MIT
 
 ## Authors and Reference
 
-James Syme
+James Syme, 2024.
 
-
-Provide a BiBTeX references appropriate for anyone using this code to cite. 
+@misc{GDA2024,
+  author       = {Syme, James},
+  title        = {GraphDistanceAlgorithms.jl: Graph shortest path algorithms for iteration.},
+  year         = 2024,
+  url = {URLHERE}
+}
