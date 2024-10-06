@@ -219,7 +219,7 @@ end
 function spawn_arrays(
     graph::AbstractGraph,
     algorithm::Symbol;
-    type::Symbol = :DistributeArray,
+    type::Symbol = :DistributedArray,
 )
     # check and initialize
     !(algorithm in [:bellman_ford, :dijkstra_kary, :dijkstra_quickheaps]) && (return nothing);
