@@ -138,7 +138,7 @@ dijkstra_kary(
 
     for src in srcs
         @inbounds dists[src] = zero(T)
-        IterativeHeaps.heap_push!(H, zero(T), src)
+        IterativeHeaps.heap_push!(H, src, zero(T))
     end
 
     
@@ -156,7 +156,7 @@ dijkstra_kary(
                 dists[v] = alt
                 
                 parents[v] = u
-                IterativeHeaps.heap_push!(H, alt, v)
+                IterativeHeaps.heap_push!(H, v, alt)
 
             end
             
@@ -216,7 +216,7 @@ end
     
     for src in srcs
         @inbounds dists.s[src, kd] = zero(T)
-        IterativeHeaps.heap_push!(H, zero(T), src)
+        IterativeHeaps.heap_push!(H, src, zero(T))
     end
 
     
@@ -234,7 +234,7 @@ end
                 dists.s[v, kd] = alt
                 
                 parents.s[v, kp] = u
-                IterativeHeaps.heap_push!(H, alt, v)
+                IterativeHeaps.heap_push!(H, v, alt)
 
             end
             
