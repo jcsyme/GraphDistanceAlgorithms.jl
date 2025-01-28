@@ -100,8 +100,7 @@ The code only needs a Graph to work off of. This can be loaded in a Julia sessio
 
 ## Project information
 
-Name the project sponsor, funding mechanism, period of performance, and any context of the research that would help outside readers understand your work.
-
+ADD HERE
 
 
 ## References/Bibliography
