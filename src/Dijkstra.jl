@@ -230,7 +230,7 @@ end
             for v in outneighbors(g, u)
                 
                 alt = dists.s[u, kd] + distmx[u, v]
-                (alt >= dists[v, kd]) && continue
+                (alt >= dists.s[v, kd]) && continue
                 dists.s[v, kd] = alt
                 
                 parents.s[v, kp] = u
